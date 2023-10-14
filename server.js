@@ -13,7 +13,7 @@ const server = http.createServer((req, res) => {
   switch(req.url ==='/'){
     case '/':
         res.statusCode = 200
-
+      
   }
 });
 server.listen(PORT, () => console.log(`server run on port ${PORT}`));
